@@ -1,0 +1,31 @@
+
+
+.carousel-container {
+    
+    width: 100vw;
+    
+ 
+   
+ 
+    
+}
+
+.infinite-scroll {
+    display: flex;
+    animation: scroll-slide 100s linear infinite;
+}
+
+.infinite-scroll img {
+    width: 800; /* Ensure each image fills the entire container width */
+    height: 50vh; /* Fill the height of the viewport */
+    
+}
+
+
+@media (max-width: 500px) {
+    .carousel-container{
+        height: 50vh;
+        
+    
+    }
+  }

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('/fonts/gotham.otf') format('opentype'); /* Adjust the path and font format as needed */
+  
+  }
+
+.about-one{
+    width: 100%;
+  
+    background-color: #1D3B27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >img{
+        height: 15rem;
+        
+    }
+
+    .phone{
+        display: flex;
+    }
+
+    >p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: #f2f2f2;
+        line-height: 1.4;
+        letter-spacing: +0.03em;
+        font-family:  'gotham';
+        font-size: 18px;
+        padding-bottom: 8rem;
+        
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .about-one{
+        max-height: 40vh;
+        display: none;
+    }
+    .about-one img{
+        
+        height: 7rem;
+    
+    }
+
+    .phone{
+       
+        display: block;
+    }
+
+    
+
+
+  }

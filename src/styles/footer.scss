@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('/fonts/gotham.otf') format('opentype'); /* Adjust the path and font format as needed */
+  
+  }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #1D3B27;
+    justify-content: center;
+    align-items: center;
+    font-family: 'gotham';
+    height: 10vh;
+   >div{
+    padding-top: 15px;
+   
+    color: aliceblue;
+    display: flex;
+    
+    >p{
+        font-family: 'gotham';
+
+        >a{
+          text-decoration: none;
+          color: #f2f2f2;
+          line-height: 1.4;
+          letter-spacing: +0.03em;
+          font-family:  'gotham';
+          font-size: 18px; 
+
+          &:hover {
+            text-decoration: underline;
+            transform: scale(1.1)
+           
+        }
+        }
+    }
+    
+ 
+   }
+   
+}
+
+@media (max-width: 500px) {
+    footer{
+      margin-top: 0rem;
+         
+
+    
+    }
+
+    footer div p a{
+     
+      font-size: 10px;
+
+
+         
+
+    
+     }
+
+     
+  }

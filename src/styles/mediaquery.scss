@@ -1,0 +1,77 @@
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+
+        >img {
+            padding-right: 0;
+           /* Some spacing between the title and the main links */
+          
+
+        }
+
+        >main {
+            width: 100%;
+            justify-content: space-between;
+            display: none;
+
+            
+        }
+    }
+
+   
+        .carousel-container {
+            height: 30vh; /* Reduced height for screens 820px or smaller */
+        }
+    
+        .cara-one img {
+            height: 30vh; /* Ensure the images fill the new height of the container */
+        }
+
+
+        .arbtn{
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+    
+    
+            .one{
+                width: 100%;
+                height: 25vh;
+            }
+    
+            .two{
+                width: 100%;
+                height: 25vh;
+            }    
+        }
+       
+        .about-one{
+            height: 60vh;
+        }
+        
+
+        .about-one {
+            height: auto;  /* Adjust height to fit content */
+            padding: 1rem 0; /* Add some vertical padding if necessary */
+    
+            >h1 {
+                font-size: 1.5rem;  /* Adjust the font size for smaller screens */
+                padding-bottom: 1rem; /* Adjust padding for smaller screens */
+            }
+    
+            >p {
+                padding-left: 1rem;  /* Adjust padding for smaller screens */
+                padding-right: 1rem;  /* Adjust padding for smaller screens */
+                font-size: 0.9rem;  /* Adjust the font size for smaller screens */
+            }
+        }
+
+      
+
+}
+
+
+
