@@ -14,7 +14,7 @@ function ARbutton() {
   };
 
   const url = 'https://maiaxmintlikedemo.onrender.com/'
-  const url1 = "https://drive.google.com/file/d/17ellDss9gdV5sfS5uddh0fJ8hwXhhCLT/view?usp=sharing"
+  const url1 = "https://drive.google.com/file/d/1g-HYvCPu8PoOy56XKMkBHbtYL6WkD8jH/view?usp=drive_link"
   const handleClick1 = () => {
     window.open(url, '_blank')
   }
