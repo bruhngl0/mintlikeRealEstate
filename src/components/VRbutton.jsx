@@ -10,12 +10,12 @@ function VRbutton() {
 
 
   const url = 'https://commiep.github.io/MAIADemoVR/'
-  
+  const url1 = "https://maiaxmintlikephone.onrender.com/"
   const handleClick = () => {
     window.open(url, '_blank')
   }
   const handleClick1 = () => {
-    window.open(url, '_blank')
+    window.open(url1, '_blank')
   }
 
   return (
