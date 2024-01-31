@@ -7,7 +7,7 @@ const Header = () => {
         
         
         
-        <img src= 'one.png' className='maia' />
+        <img src= 'Mintlike.png' className='maia' />
         
         <main>
             <HashLink to= '/#home'>Home</HashLink>
